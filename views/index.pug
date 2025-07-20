@@ -1,0 +1,58 @@
+doctype html
+html
+    head
+        title AyeshaDanceAcedmy
+        style 
+              include ../static/style.css
+    body
+        nav#navbar
+            ul 
+            div#logo
+                img(src="/static/img/logo.png", alt="")
+                | HDA
+                li #[a(href="/") Home ]
+                li #[a(href="/") About Us ]
+                li #[a(href="/") Contact Us ]
+                li #[a(href="/") Services ]
+                li #[a(href="/") Class Info ]
+
+        section#introsection
+             div welcome to dance acedmy
+             div.small i hope you are enjoying it
+
+        section#missionsection
+            h2 our mission
+            div.card 
+                h3 Dance perfection 
+                div.car-box
+                    div.card-img
+                      img(src="/static/img/girl.png ", alt="")
+                div.card-content
+                    p this is best dance acedmy of universe
+            div.card 
+                h3 Dance the way yoy like
+                div.car-box
+                    div.card-img
+                         img(src="/static/img/girl.png ", alt="")
+                div.card-content
+                    p this is best dance acedmy of universe
+            div.card 
+                h3 perfect teaching 
+                div.car-box
+                    div.card-img
+                        img(src="/static/img/girl.png ", alt="")
+                div.card-content
+                    p this is best dance acedmy of universe
+              
+
+        section#sponsorsection
+             h2  sponsor 
+             div#sponsor
+                img(src="/static/img/insta.jpeg", alt=""   , Class="spimg")
+                img(src="/static/img/twitter.png", alt=""  , Class="spimg")
+                img(src="/static/img/whatsapp.png", alt="" , Class="spimg")
+        footer#footer 
+             | Copyright ©  2019 AyeshaDanceAcedmy.com
+    
+        script
+              include ../static/index.js  
